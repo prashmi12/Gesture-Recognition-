@@ -1,52 +1,67 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Project Name : Gesture Recognition Project
+> Gesture recognition project by training models using custom convolutional neural network, recurrent neural network and generators 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+* [Libraries Used in Python](#libraries-used)
+* [Acknowledgements](#acknowledgements) 
+* [Team Members](#teammembers)
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## General Information <a name="general-information"></a>
+Imagine you are working as a data scientist at a home electronics
+company which manufactures state of the art smart televisions. You want
+to develop a cool feature in the smart-TV that can recognise five different
+gestures performed by the user which will help users control the TV
+without using a remote.
+The gestures are continuously monitored by the webcam mounted on the
+TV. Each gesture corresponds to a specific command
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+![image](https://github.com/prashmi12/Gesture-Recognition-/assets/11320865/7184bdb0-59bc-4797-9779-d52ab9ec36b7)
 
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
+**About Dataset:**
 
+- *Dataset Overview:* The dataset for the project comprises several hundred
+videos, each belonging to one of five distinct classes. These classes
+represent different gestures. Each video is relatively short, typically lasting 2
+to 3 seconds. The videos are further divided into a sequence of 30 frames or
+images, capturing the progression of the gesture over time.
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
+- *Gestures and Classes:* The dataset's videos showcase individuals
+performing gestures in front of a webcam. These gestures are categorized int
+five specific classes. Each class represents a distinct action or motion, such
+as raising a thumb, lowering a thumb, swiping left, swiping right, and stopping
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- *Variety and Source:* The videos in the dataset are captured by different
+individuals, resulting in a diverse range of appearances, backgrounds, and
+execution styles. The videos emulate the interaction one might have with a
+smart TV, making them relevant for the intended application, possibly involvin
+gesture-based control of a TV interface.
+
+![image](https://github.com/prashmi12/Gesture-Recognition-/assets/11320865/91d139a2-257b-42e4-a561-cd505cd0fc74)
+
+**Goal:**
+This endeavor aims to construct a sophisticated model designed for the
+recognition of five distinct hand gestures. The primary objective involves
+training a model utilizing the data contained within the 'train' directory,
+with a specific emphasis on achieving commendable performance across
+the 'validation’, adhering to established practices in the realm of machine
+learning. It is important to note that the 'test' folder has been reserved
+exclusively for the purpose of evaluation, where the efficacy of the
+finalized model will be rigorously assessed.
+
+## Libraries Used in Python <a name="libraries-used"></a>
+- numpy 
+- pandas
+- matplotlib.pyplot
+- seaborn 
+- tensorflow
+-  keras
+
+## Acknowledgements <a name="acknowledgements"></a>
+- This project is given by Upgrad as an assignment case study
+- All the data and requirements are provided by Upgrad.
+
+## Team Members <a name="teammembers"></a>
+Assignment done solely by Preity Rashmi
